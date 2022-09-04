@@ -1,3 +1,0 @@
-Submission v1 with inter_team_correlation_multiplier = -5
-Submission v2 with inter_team_correlation_multiplier = -7
-Submission v3 with inter_team_correlation_multiplier = -5
