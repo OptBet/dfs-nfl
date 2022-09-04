@@ -26,3 +26,6 @@ Manifest.toml
 
 # Don't need DS Store
 .DS_Store
+
+# Don't need checkpoints
+.ipynb_checkpoints
