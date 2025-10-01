@@ -65,7 +65,7 @@ Functions:
 
 ### Group Functions:
 
-We have a set of functions that encode information about a group of players data. These functions are similar to [Player Functions](https://www.notion.so/Player-Functions-031b1c02bdfa41d5b898e6675135a381?pvs=21) as they can also very with time and  have one required parameter, the group , and one optional parameter, the date, $t$.
+We have a set of functions that encode information about a group of players data.
 
 Forms:
 
@@ -224,10 +224,6 @@ $$
 
 Modeling both teams as Normal variables we can compute $\mathbb{E}[\text{Dollars}(\mathbb{N}(100, \sqrt{10}))]$ for lineup A vs $\mathbb{E}[\text{Dollars}(\mathbb{N}(90, \sqrt{32}))]$ for lineup B.
 
-Using mathematica, we can calculate this:
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/234aca85-29eb-4c25-82c3-dc1b0c90f011/Untitled.png)
-
 For lineup A we have $e^{105}$ for lineup B we have $e^{106}$
 
 This is more formally how we quantify the value of a “variance boosting”
@@ -257,10 +253,6 @@ $$
 ## Team Overlaps
 
 Lets say we are analyzing the selection of two teams that have significant overlap
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/664782f5-3949-4439-8354-1c854ebe2e75/Untitled.png)
-
-(https://drive.google.com/file/d/1CpqLcA33AZruISCEdvygz1Ijxe80I988/view)
 
 Individuals the first team’s value is:
 
