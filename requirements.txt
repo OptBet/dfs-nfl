@@ -1,0 +1,14 @@
+DataFrames
+DelimitedFiles
+DataStructures
+GLPKMathProgInterface
+JuMP
+StatsBase
+CSV
+LinearAlgebra
+Distributions
+Random
+SCIP
+GLPK
+BenchmarkTools
+julia v1.7.1
