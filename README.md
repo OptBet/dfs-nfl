@@ -1,5 +1,9 @@
 # dfs-nfl
 
+## Notes
+The notebooks are written in Julia. Data is provided for the 2022-2023 NFL season. This work was started while the authors were students in the MIT Master of Business Analytics program under the advisorship of Prof. Dimitris Bertismas. The work has been expanded in the following years.
+
+
 ## Data / Attributes
 
 Given the following data:
@@ -219,7 +223,7 @@ Which team is better? To answer this we can compute the expected payout for both
 Lets approximate the payout as:
 
 $$
-\text{Dollars} = e^{\text{\# of points}}
+\text{Dollars} = e^{\text{\number of points}}
 $$
 
 Modeling both teams as Normal variables we can compute $\mathbb{E}[\text{Dollars}(\mathbb{N}(100, \sqrt{10}))]$ for lineup A vs $\mathbb{E}[\text{Dollars}(\mathbb{N}(90, \sqrt{32}))]$ for lineup B.
@@ -273,7 +277,6 @@ However, optimizing these teams together the collective value is $2*D(b, c, d, H
 Where $H$ somehow encodes the fact that we have hedged player $a$’s outcome with players $e’s$ outcome. 
 
 
-## Comments
 
-This work was started while the authors were students in the MIT Master of Business Analytics program under the advisorship of Prof. Dimitris Bertismas. The work has been expanded in the following years.
+
 
